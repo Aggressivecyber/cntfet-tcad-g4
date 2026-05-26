@@ -1,0 +1,110 @@
+*** BSIM-CMG Vth extraction ***
+
+VD dd 0 0.9
+VG gg 0 0
+VS ss 0 0
+VB bb 0 0
+
+.model nmos_cntfet bsimcmg_va
++ BULKMOD = 1
++ CGEOMOD = 0
++ TYPE = 1
++ GEOMOD = 0
++ GIDLMOD = 1
++ IGBMOD = 0
++ IGCMOD = 1
++ IIMOD = 0
++ NGATE  = 0
++ NQSMOD = 0
++ RDSMOD = 0
++ RGATEMOD = 0
++ RGEOMOD = 0
++ SDTERM = 0
++ SHMOD = 0
++ AGIDL = 1.00E-12
++ AGISL = 1.00E-12
++ CDSC = 0.01
++ CDSCD = 0.01
++ CFD = 0.20E-10
++ CFS = 0.20E-10
++ CGBL  = 0
++ CGBO  = 0
++ CGDL  = 0
++ CGDO = 1e-10
++ CGSL  = 0
++ CGSO = 1e-10
++ CIT = 0
++ CTH0  = 0.000001243
++ DELTAVSAT  = 0.5
++ DROUT = 1
++ DSUB = 0.5
++ DVT0 = 0.05
++ DVT1 = 0.5
++ DVTSHIFT = 0
++ EASUB  = 4.05
++ EOT  = 1.50E-09
++ EOTACC  = 1.00E-10
++ EOTBOX  = 1.40E-07
++ EPSROX  = 3.9
++ EPSRSP  = 3.9
++ EPSRSUB  = 11.9
++ ETA0  = 0.05
++ ETAMOB = 2
++ EU = 1.2
++ FPITCH  = 4.00E-08
++ HFIN  = 3.00E-08
++ IGT  = 2.5
++ KSATIV = 2
++ LINT  = -2.00E-09
++ LCDSCD = 5.00E-05
++ LCDSCDR = 5.00E-05
++ LRDSW = 0.2
++ MEXP = 4
++ NBODY  = 1.00E+22
++ NC0SUB  = 2.86E+25
++ NI0SUB  = 1.10E+16
++ NSD  = 2.00E+26
++ PCLM = 0.05
++ PCLMCV = 0.013
++ PDIBL1 = 0
++ PDIBL2 = 0.002
++ PHIG  = 4.52
++ PHIN = 0.05
++ POXEDGE = 1.1
++ PQM  = 0.66
++ QM0  = 0.001
++ QMFACTOR  = 2.5
++ RDSW  = 200
++ TBGASUB = 0.000473
++ TBGBSUB = 636
++ TFIN  = 1.40E-08
++ TGIDL  = -0.007
++ TNOM = 25
++ TOXP  = 2.10E-09
++ U0 = 0.025
++ UA = 0.55
++ UCS = 1
++ VSAT = 80000
++ WR  = 1
++ WTH0  = 2.60E-07
+
+NMN1 dd gg ss bb nmos_cntfet
+
+.control
+dc VG 0 0.9 0.002
+* Current magnitude (abs value)
+let id = abs(i(VS))
+* Use gm max derivative for Vth extraction
+let gm = deriv(id)
+let gm_max = maximum(gm)
+* Linear extrapolation Vth: find Vg at max gm, then extrapolate
+meas dc vg_at_maxgm WHEN gm=gm_max CROSS=1
+* Simple threshold at Id=1e-7
+let id_threshold = 1e-7
+meas dc vth_simple WHEN id=id_threshold CROSS=1
+* Print max current
+let ion = maximum(id)
+print ion
+quit
+.endc
+.end

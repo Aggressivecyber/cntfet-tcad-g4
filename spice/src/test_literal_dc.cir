@@ -1,0 +1,49 @@
+*** Test literal values in DC sweep ***
+
+VIN in 0 0
+VDD_S vdd 0 0.9
+
+.model nmos bsimcmg_va TYPE = 1
++ BULKMOD = 1 CGEOMOD = 0 GEOMOD = 0 GIDLMOD = 1
++ IGBMOD = 0 IGCMOD = 1 IIMOD = 0
++ NGATE = 0 NQSMOD = 0 RDSMOD = 0 RGATEMOD = 0 RGEOMOD = 0
++ SDTERM = 0 SHMOD = 0
++ AGIDL = 1e-12 AGISL = 1e-12
++ CDSC = 0.01 CDSCD = 0.01
++ CFD = 0.2e-10 CFS = 0.2e-10
++ CGDO = 1e-10 CGSO = 1e-10
++ CTH0 = 0.000001243
++ DELTAVSAT = 0.5 DROUT = 1 DSUB = 0.5
++ DVT0 = 0.05 DVT1 = 0.5 DVTSHIFT = 0
++ EASUB = 4.05 EOT = 1.50e-9 EOTACC = 1e-10 EOTBOX = 1.40e-7
++ EPSROX = 3.9 EPSRSP = 3.9 EPSRSUB = 11.9
++ ETA0 = 0.05 ETAMOB = 2 EU = 1.2
++ FPITCH = 4e-8 HFIN = 3e-8
++ IGT = 2.5 K1RSCE = 0 KSATIV = 2
++ KT1 = 0 KT1L = 0
++ LINT = -2e-9 LPE0 = 0 LCDSCD = 5e-5 LCDSCDR = 5e-5
++ LRDSW = 0.2 LVSAT = 0
++ MEXP = 4 NBODY = 1e22 NC0SUB = 2.86e25 NI0SUB = 1.1e16 NSD = 2e26
++ PCLM = 0.05 PCLMCV = 0.013 PCLMG = 0
++ PDIBL1 = 0 PDIBL2 = 0.002
++ PHIG = 4.65 PHIN = 0.05 POXEDGE = 1.1 PQM = 0.66
++ PRT = 0 PTWG = 0 PTWGT = 0.004 PVAG = 0
++ QM0 = 0.001 QMFACTOR = 2.5
++ RDSW = 200 RDSWMIN = 0 RDWMIN = 0 RSHD = 0 RSHS = 0 RSWMIN = 0
++ RTH0 = 0.225
++ TBGASUB = 4.73e-4 TBGBSUB = 636
++ TFIN = 1.4e-8 TGIDL = -0.007 TMEXP = 0
++ TNOM = 25 TOXP = 2.1e-9
++ U0 = 0.025 UA = 0.55 UA1 = 0.001032 UCS = 1 UCSTE = -0.004775
++ UD = 0 UD1 = 0 UP = 0 UTE = -0.7 UTL = 0
++ VSAT = 80000 WR = 1 WTH0 = 2.6e-7 XL = 0
+
+NMN1 out in 0 0 nmos
+
+.control
+dc VIN 0 0.9 0.01
+let vout = v(out)
+print vout[0] vout[45] vout[90]
+quit
+.endc
+.end

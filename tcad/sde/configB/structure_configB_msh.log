@@ -1,0 +1,52 @@
+Using total concentrations for net doping
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  4414 (tree) + 492 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (4418 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+    4414 points.
+    8635 elements.
+       8 regions.
+Max. connectivity = 8 located at (0.004745;-0.061625)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    6   6  11   8   2   2   8  12   7  38          .                     
+---------------------------------------------------------------------------------
+minAngle: 2.66591  maxAngle: 123.69
+nVerts = 4414  nTris = 8635  nMats = 4
+max connectivity (tris per node): 8 [near (0.004745 -0.061625)]
+bmin: -0 -0.071
+bmax: 0.313745 0.071
+min edgeLength: 9.3125e-05  [near (4.65625e-05 -0.0694375)]
+min volume: 1.16406e-08  max volume: 0.00015  Total volume: 0.0445518
+bbox  volume: 0.0445518
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: R.CNTChannel  Total volume: 0.00010579
+Interpolating data...done.
+Saving file structure_configB_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:     0.164s       100%
+                       Rate of #Vertices:  2.69e+04
+                          Rate of #Edges:  5.57e+04
+                          Rate of #Faces:  5.27e+04
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+

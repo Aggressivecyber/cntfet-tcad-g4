@@ -1,0 +1,21 @@
+*** CMOS Inverter - non-M prefix ***
+
+VIN in 0 0
+VDD_S vdd 0 0.9
+
+.include /home/rylan/projects/sim-lab/osdi_libs/bsimcmg_modelcards/modelcard.nmos
+.include /home/rylan/projects/sim-lab/osdi_libs/bsimcmg_modelcards/modelcard.pmos
+
+NPD out in 0 0 nmos
+PPU out in vdd vdd pmos
+
+.control
+dc VIN 0 0.9 0.002
+let vout = v(out)
+print vout[0] vout[100] vout[200] vout[300] vout[400] vout[450]
+let diff = vout - in
+meas dc vtrip WHEN diff=0 CROSS=1
+write /tmp/vtc_test.txt vout in
+quit
+.endc
+.end

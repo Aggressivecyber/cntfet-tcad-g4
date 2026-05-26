@@ -1,0 +1,59 @@
+*** PHIG to Vth calibration sweep ***
+
+VD dd 0 0.9
+VG gg 0 0
+VS ss 0 0
+VB bb 0 0
+
+.model nmos_test bsimcmg_va
++ BULKMOD = 1 CGEOMOD = 0 TYPE = 1 GEOMOD = 0
++ GIDLMOD = 1 IGBMOD = 0 IGCMOD = 1 IIMOD = 0
++ NGATE = 0 NQSMOD = 0 RDSMOD = 0 RGATEMOD = 0 RGEOMOD = 0
++ SDTERM = 0 SHMOD = 0
++ AGIDL = 1e-12 AGISL = 1e-12
++ CDSC = 0.01 CDSCD = 0.01
++ CFD = 0.2e-10 CFS = 0.2e-10
++ CGDO = 1e-10 CGSO = 1e-10
++ CTH0 = 0.000001243
++ DELTAVSAT = 0.5 DROUT = 1 DSUB = 0.5
++ DVT0 = 0.05 DVT1 = 0.5
++ EASUB = 4.05 EOT = 1.50e-9 EOTACC = 1e-10 EOTBOX = 1.40e-7
++ EPSROX = 3.9 EPSRSP = 3.9 EPSRSUB = 11.9
++ ETA0 = 0.05 ETAMOB = 2 EU = 1.2
++ FPITCH = 4e-8 HFIN = 3e-8
++ IGT = 2.5 KSATIV = 2
++ LINT = -2e-9 LCDSCD = 5e-5 LCDSCDR = 5e-5
++ MEXP = 4 NBODY = 1e22 NC0SUB = 2.86e25 NI0SUB = 1.1e16 NSD = 2e26
++ PCLM = 0.05 PCLMCV = 0.013 PDIBL1 = 0 PDIBL2 = 0.002
++ PHIG = 4.39 PHIN = 0.05 POXEDGE = 1.1 PQM = 0.66
++ QM0 = 0.001 QMFACTOR = 2.5
++ RDSW = 200 RTH0 = 0.225
++ TBGASUB = 4.73e-4 TBGBSUB = 636
++ TFIN = 1.4e-8 TGIDL = -0.007
++ TNOM = 25 TOXP = 2.1e-9
++ U0 = 0.025 UA = 0.55 UCS = 1
++ VSAT = 80000 WR = 1 WTH0 = 2.6e-7
+
+NMN1 dd gg ss bb nmos_test
+
+.control
+* Sweep PHIG values
+let phig_values = vector(7)
+let phig_values[0] = 4.20
+let phig_values[1] = 4.30
+let phig_values[2] = 4.39
+let phig_values[3] = 4.52
+let phig_values[4] = 4.65
+let phig_values[5] = 4.80
+let phig_values[6] = 4.95
+
+foreach phig_val 4.20 4.30 4.39 4.52 4.65 4.80 4.95
+  altermod nmos_test PHIG = $phig_val
+  dc VG 0 0.9 0.002
+  let id = abs(i(VS))
+  meas dc vth_$phig_val WHEN id=1e-7 CROSS=1
+  reset
+end
+quit
+.endc
+.end

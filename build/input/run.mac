@@ -1,0 +1,12 @@
+# CNTFET Dosimetry - Default Run Macro
+# Usage: ./cntfet_dosimetry A input/run.mac
+
+/run/initialize
+
+# Particle gun settings (gamma, 1 MeV, along z-axis)
+/gun/particle gamma
+/gun/energy 1 MeV
+/gun/direction 0 0 1
+
+# Run 10000 events
+/run/beamOn 10000

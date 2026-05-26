@@ -1,0 +1,21 @@
+*** Test .param in DC sweep ***
+.param myvdd=0.9
+
+VIN in 0 0
+VDD_S vdd 0 myvdd
+
+.include /home/rylan/projects/sim-lab/osdi_libs/bsimcmg_modelcards/modelcard.nmos
+
+NMN1 out in 0 0 nmos
+
+.model nmos bsimcmg_va TYPE = 1
++ BULKMOD = 1 CGEOMOD = 0 GEOMOD = 0
++ PHIG = 4.65
+
+.control
+dc VIN 0 myvdd 0.01
+let vout = v(out)
+print vout[0] vout[45]
+quit
+.endc
+.end

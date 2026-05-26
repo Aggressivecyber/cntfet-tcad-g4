@@ -1,0 +1,3 @@
+/home/rylan/projects/cntfet-best/build/CMakeFiles/cntfet_dosimetry.dir
+/home/rylan/projects/cntfet-best/build/CMakeFiles/edit_cache.dir
+/home/rylan/projects/cntfet-best/build/CMakeFiles/rebuild_cache.dir

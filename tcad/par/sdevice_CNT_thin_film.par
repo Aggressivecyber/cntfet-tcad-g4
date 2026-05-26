@@ -1,0 +1,142 @@
+
+                               Sentaurus Device 
+
+                  Version X-2025.06 for linux64 - May 23, 2025
+           Changelist number: 9833470, Compile host: sce-tcad-build04
+
+                    Copyright (c) 1994 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+	Running on machine with the following configuration:
+	Host Name: tcad-sentaurus
+	Operating System: Linux rel. 6.17.0-22-generic ver. #22~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 26 15:25:54 UTC 2
+	Machine Type: x86_64
+	Process ID: 68718
+	Number of processors: 16
+	Domain Name: (none)
+	Date: Sun Apr 26 23:24:22 2026  (UTC)
+
+Parsing "/usr/synopsys/sentaurus/X-2025.06/bin/../tcad/current/lib/Molefraction.txt"
+Sun Apr 26 23:24:34 2026: checked out 1 sdevice license(s)
+Sentaurus Device recognizes the following list of materials:
+  4HSiC
+  6HSiC
+  AlAs
+  AlGaAs
+  AlGaN
+  AlGaP
+  AlInGaAs
+  AlInGaN
+  AlInGaP
+  AlInN
+  AlInP
+  AlN
+  AlP
+  Aluminum
+  AluminumOxide
+  Ambient
+  Anyinsulator
+  Anymaterial
+  Anysemiconductor
+  BN
+  BSG
+  CdTe
+  Ceramic
+  Cobalt
+  CobaltSilicide
+  Copper
+  Default
+  Ga2O3
+  GaAs
+  GaAsP
+  GaAsSb
+  GaInP
+  GaInSb
+  GaN
+  GaP
+  GaSb
+  Gas
+  GatePolySilicon
+  GeO2
+  Germanium
+  Gold
+  HfO2
+  HgCdTe
+  HgTe
+  InAlAs
+  InAs
+  InAsP
+  InAsSb
+  InGaAs
+  InGaAsP
+  InGaAsSb
+  InGaN
+  InN
+  InP
+  InSb
+  Insulator
+  Insulator1
+  Insulator2
+  Insulator3
+  InsulatorX
+  InterfacialOxide
+  Invisible
+  Iron
+  LowK
+  Metal
+  Molybdenum
+  Nickel
+  NickelSilicide
+  Niobium
+  NiobiumOxide
+  Nitride
+  Oxide
+  OxideAsSemiconductor
+  Oxynitride
+  Photoresist
+  Platinum
+  PolySi
+  PolySilicon
+  Refractory
+  Resist
+  Semiconductor
+  Si3N4
+  SiC_4H
+  SiC_6H
+  SiO2
+  Silicide
+  Silicon
+  Silicon110
+  Silicon111
+  SiliconCarbide
+  SiliconGermanium
+  Silver
+  Solder60_40
+  StrainedSilicon
+  Tantalum
+  TiN
+  TiNitride
+  TiSi2
+  TiSilicide
+  Titanium
+  Tungsten
+  TungstenSilicide
+  Vacuum
+
+The material name "CNT_thin_film" was not found in DATEX !
+
+
+Sun Apr 26 23:24:34 2026: checked in 1 sdevice license(s)

@@ -1,0 +1,126 @@
+* 6T SRAM SNM (read) - configC TID=0 krad
+
+.model nmos_configC_tid0 bsimcmg_va
++ BULKMOD = 1 CGEOMOD = 0 TYPE = 1 GEOMOD = 0
++ GIDLMOD = 1 IGBMOD = 0 IGCMOD = 1 IIMOD = 0
++ NGATE = 0 NQSMOD = 0 RDSMOD = 0 RGATEMOD = 0 RGEOMOD = 0
++ SDTERM = 0 SHMOD = 0
++ AGIDL = 1e-12 AGISL = 1e-12
++ CDSC = 0.01 CDSCD = 0.01
++ CFD = 0.2e-10 CFS = 0.2e-10
++ CGDO = 1e-10 CGSO = 1e-10
++ CTH0 = 0.000001243
++ DELTAVSAT = 0.5 DROUT = 1 DSUB = 0.5
++ DVT0 = 0.05 DVT1 = 0.5 DVTSHIFT = 0
++ EASUB = 4.05 EOTACC = 1e-10 EOTBOX = 1.40e-7
++ EPSRSUB = 11.9
++ ETA0 = 0.05 ETAMOB = 2 EU = 1.2
++ FPITCH = 4e-8 HFIN = 3e-8
++ IGT = 2.5 K1RSCE = 0 KSATIV = 2
++ KT1 = 0 KT1L = 0
++ LINT = -2e-9 LPE0 = 0 LCDSCD = 5e-5 LCDSCDR = 5e-5
++ LRDSW = 0.2 LVSAT = 0
++ MEXP = 4 NBODY = 1e22 NC0SUB = 2.86e25 NI0SUB = 1.1e16 NSD = 2e26
++ PCLM = 0.05 PCLMCV = 0.013 PCLMG = 0
++ PDIBL1 = 0 PDIBL2 = 0.002
++ PHIN = 0.05 POXEDGE = 1.1 PQM = 0.66
++ PRT = 0 PTWG = 0 PTWGT = 0.004 PVAG = 0
++ QM0 = 0.001 QMFACTOR = 2.5
++ RDSW = 200 RDSWMIN = 0 RDWMIN = 0 RSHD = 0 RSHS = 0 RSWMIN = 0
++ RTH0 = 0.225
++ TBGASUB = 4.73e-4 TBGBSUB = 636
++ TFIN = 1.4e-8 TGIDL = -0.007 TMEXP = 0
++ TNOM = 25
++ UA = 0.55 UA1 = 0.001032 UCS = 1 UCSTE = -0.004775
++ UD = 0 UD1 = 0 UP = 0 UTE = -0.7 UTL = 0
++ VSAT = 80000 WR = 1 WTH0 = 2.6e-7 XL = 0
++ PHIG = 4.7035
++ EOT = 1.80e-09
++ TOXP = 8.00e-09
++ EPSROX = 17.3
++ EPSRSP = 17.3
++ U0 = 0.025133
+
+.model pmos_configC bsimcmg_va
++ BULKMOD = 1 CGEOMOD = 0 TYPE = 0 GEOMOD = 0
++ GIDLMOD = 1 IGBMOD = 0 IGCMOD = 1 IIMOD = 0
++ NGATE = 0 NQSMOD = 0 RDSMOD = 0 RGATEMOD = 0 RGEOMOD = 0
++ SDTERM = 0 SHMOD = 0
++ AGIDL = 2e-12 AGISL = 2e-12
++ AIGC = 0.007 AIGD = 0.006 AIGS = 0.006
++ AT = 0.0008234
++ CDSC = 0.003469 CDSCD = 0.001486
++ CFD = 0.2e-10 CFS = 0.2e-10
++ CGDO = 1e-10 CGSO = 1e-10
++ CIT = 0
++ CKAPPAD = 0.6 CKAPPAS = 0.6
++ CTH0 = 1.243e-6
++ DELTAVSAT = 11.56 DELTAW = 0 DELTAWCV = -1e-8
++ DLBIN = 0 DLC = -9.2e-9 DLCIGD = 5e-9 DLCIGS = 5e-9
++ DROUT = 4.97 DSUB = 0.5
++ DVT0 = 0.05006 DVT1 = 0.4 DVTSHIFT = 0
++ EASUB = 4.05 EOTACC = 3e-10 EOTBOX = 1.40e-7
++ EPSRSUB = 11.9
++ ETA0 = 0.03952 ETAMOB = 4 EU = 0.05
++ FPITCH = 4e-8 HFIN = 3e-8
++ IGT = 3.5 K1RSCE = 0 KSATIV = 1.592
++ KT1 = 0.08387 KT1L = 0
++ LINT = -2.5e-9 LPE0 = 0 LCDSCD = 0 LCDSCDR = 0
++ LRDSW = 1.3 LVSAT = 1441
++ MEXP = 2.491 NBODY = 1e22 NC0SUB = 2.86e25 NI0SUB = 1.1e16 NSD = 2e26
++ PCLM = 0.01 PCLMCV = 0.013 PCLMG = 1
++ PDIBL1 = 800 PDIBL2 = 0.005704
++ PHIN = 0.05 POXEDGE = 1.152 PQM = 0.66
++ PRT = 0.002477 PTWG = 6.322 PTWGT = 0.0015 PVAG = 200
++ QM0 = 2.183e-12 QMFACTOR = 0
++ RDSW = 190.6 RDSWMIN = 0 RDWMIN = 0 RSHD = 0 RSHS = 0 RSWMIN = 0
++ RTH0 = 0.15
++ TBGASUB = 4.73e-4 TBGBSUB = 636
++ TFIN = 1.4e-8 TGIDL = -0.01 TMEXP = 0
++ TNOM = 25
++ UA = 1.133 UA1 = 0.00134 UCS = 0.2672 UCSTE = 0
++ UD = 0.0105 UD1 = 0 UP = 0 UTE = 0 UTL = 0.001
++ VSAT = 48390 WR = 1 WTH0 = 2.6e-7 XL = 0
++ PHIG = 5.1335
++ EOT = 1.80e-09
++ TOXP = 8.00e-09
++ EPSROX = 17.3
++ EPSRSP = 17.3
++ U0 = 0.02935
+
+
+* === Inverter 1 ===
+VIN1 in1 0 0
+VDD1 vdd1 0 0.9
+
+NPD1 out1 in1 0 0 nmos_configC_tid0
+NPU1 out1 in1 vdd1 vdd1 pmos_configC
+
+* Access transistor loading (read mode)
+NAL1 out1 vdd1 vdd1 0 nmos_configC_tid0
+NAL2 out2 vdd2 vdd2 0 nmos_configC_tid0
+
+* === Inverter 2 ===
+VIN2 in2 0 0
+VDD2 vdd2 0 0.9
+
+NPD2 out2 in2 0 0 nmos_configC_tid0
+NPU2 out2 in2 vdd2 vdd2 pmos_configC
+
+.control
+set filetype=ascii
+
+dc VIN1 0 0.9 0.002
+let vtc1_vin = v(in1)
+let vtc1_vout = v(out1)
+write /home/rylan/projects/sim-lab/20260427-034614-CNTFET-6T-SRAM-TID-Radiation-Multi-Scale-Simulatio/workspace/ngspice/production/sram-6t-tid/output/configC_TID0_read_vtc1.txt vtc1_vin vtc1_vout
+
+reset
+dc VIN2 0 0.9 0.002
+let vtc2_vin = v(in2)
+let vtc2_vout = v(out2)
+write /home/rylan/projects/sim-lab/20260427-034614-CNTFET-6T-SRAM-TID-Radiation-Multi-Scale-Simulatio/workspace/ngspice/production/sram-6t-tid/output/configC_TID0_read_vtc2.txt vtc2_vin vtc2_vout
+
+quit
+.endc
+.end

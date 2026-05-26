@@ -1,0 +1,109 @@
+* Trial T8: WF=4.0 + 3-eq/Fermi + memory-validated params
+* Changes from baseline:
+*   1. mu_h: 600 -> 1000 (symmetric for zigzag CNT)
+*   2. Nc300: 3.2e17 -> 1.506e17 (memory-validated)
+*   3. Nv300: 3.2e17 -> 1.506e17 (memory-validated)
+*   4. eps_r: 4.0 -> 5.0 (memory-validated)
+
+Material = "CNT_thin_film" {
+
+Epsilon
+{
+    * FIX: eps_r from 4.0 to 5.0 (memory-validated)
+    epsilon = 5.0
+}
+
+Bandgap
+{
+    Chi0    = 4.0
+    Bgn2Chi = 0.5
+    Eg0     = 0.50
+    alpha   = 0.0
+    beta    = 0.0
+    alpha2  = 0.0
+    beta2   = 0.0
+    EgMin   = 0.0
+    dEgMin  = 0.01
+    Tpar    = 300.0
+}
+
+eDOSMass
+{
+    Formula = 2
+    * FIX: Nc300 from 3.2e17 to 1.506e17 (memory-validated for (19,0) CNT)
+    Nc300   = 1.506e17
+}
+
+hDOSMass
+{
+    Formula = 2
+    * FIX: Nv300 from 3.2e17 to 1.506e17 (symmetric with Nc for zigzag CNT)
+    Nv300   = 1.506e17
+}
+
+ConstantMobility:
+{
+    * FIX: mu_h from 600 to 1000 (equal to mu_e for zigzag CNT)
+    mumax   = 1000.0 ,  1000.0
+    Exponent = 1.5   ,  1.5
+    mutunnel = 0.05  ,  0.05
+}
+
+HighFieldDependence:
+{
+    beta0   = 2  ,  2
+    betaexp = 0.0 , 0.0
+    alpha   = 0.0 , 0.0
+    Vsat_Formula = 2 , 2
+    A_vsat  = 1.0e7 , 8.0e6
+    B_vsat  = 0.0   , 0.0
+    vsat_min = 1.0e5 , 1.0e5
+}
+
+Scharfetter * relation and trap level for SRH recombination:
+{
+    taumin  = 1.0e-12 , 1.0e-12
+    taumax  = 1.0e-9  , 1.0e-9
+    Nref    = 1.0e16  , 1.0e16
+    gamma   = 1       , 1
+    Talpha  = -1.5    , -1.5
+    Etrap   = 0.0
+}
+
+}
+
+Material = "Al2O3" {
+
+Epsilon
+{
+    epsilon = 9.0
+}
+
+Bandgap
+{
+    Chi0 = 1.4
+    Eg0  = 8.8
+    alpha = 0.0
+    beta  = 0.0
+    Tpar  = 300.0
+}
+
+}
+
+Material = "HfO2" {
+
+Epsilon
+{
+    epsilon = 25.0
+}
+
+Bandgap
+{
+    Chi0 = 2.5
+    Eg0  = 5.8
+    alpha = 0.0
+    beta  = 0.0
+    Tpar  = 300.0
+}
+
+}
