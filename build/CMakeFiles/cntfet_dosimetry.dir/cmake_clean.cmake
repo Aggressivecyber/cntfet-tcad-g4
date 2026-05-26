@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o"
   "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o.d"
-  "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o"
-  "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o.d"
   "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o"
   "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o.d"
   "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o"

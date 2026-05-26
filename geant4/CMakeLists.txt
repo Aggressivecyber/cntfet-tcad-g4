@@ -10,7 +10,7 @@ find_package(Geant4 REQUIRED)
 
 # Include directories
 include_directories(
-    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/includ
     ${Geant4_INCLUDE_DIRS}
 )
 

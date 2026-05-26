@@ -73,127 +73,113 @@ CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o: CMakeFiles/cntfet_dos
 CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o: /home/rylan/projects/cntfet-best/geant4/src/cntfet_dosimetry.cc
 CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/cntfet_dosimetry.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/cntfet_dosimetry.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/cntfet_dosimetry.cc > CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/cntfet_dosimetry.cc > CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/cntfet_dosimetry.cc -o CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/cntfet_dosimetry.cc -o CMakeFiles/cntfet_dosimetry.dir/src/cntfet_dosimetry.cc.s
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETDetectorConstruction.cc
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETDetectorConstruction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETDetectorConstruction.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETDetectorConstruction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETDetectorConstruction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETDetectorConstruction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETDetectorConstruction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETDetectorConstruction.cc.s
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETPhysicsList.cc
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETPhysicsList.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETPhysicsList.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETPhysicsList.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETPhysicsList.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETPhysicsList.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETPhysicsList.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPhysicsList.cc.s
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETPrimaryGeneratorAction.cc
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETPrimaryGeneratorAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETPrimaryGeneratorAction.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETPrimaryGeneratorAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETPrimaryGeneratorAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETPrimaryGeneratorAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETPrimaryGeneratorAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorAction.cc.s
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETRunAction.cc
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETRunAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETRunAction.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETRunAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETRunAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETRunAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETRunAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.s
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETEventAction.cc
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETEventAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETEventAction.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETEventAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETEventAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETEventAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETEventAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.s
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETSteppingAction.cc
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETSteppingAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETSteppingAction.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETSteppingAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETSteppingAction.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETSteppingAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.s
-
-CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
-CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETBiasing.cc
-CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETBiasing.cc
-
-CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETBiasing.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.i
-
-CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETBiasing.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETSteppingAction.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.s
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o: CMakeFiles/cntfet_dosimetry.dir/flags.make
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o: /home/rylan/projects/cntfet-best/geant4/src/CNTFETActionInitialization.cc
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o: CMakeFiles/cntfet_dosimetry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o -MF CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o.d -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o -c /home/rylan/projects/cntfet-best/geant4/src/CNTFETActionInitialization.cc
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETActionInitialization.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rylan/projects/cntfet-best/geant4/src/CNTFETActionInitialization.cc > CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.i
 
 CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETActionInitialization.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rylan/projects/cntfet-best/geant4/src/CNTFETActionInitialization.cc -o CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.s
 
 # Object files for target cntfet_dosimetry
 cntfet_dosimetry_OBJECTS = \
@@ -204,7 +190,6 @@ cntfet_dosimetry_OBJECTS = \
 "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o" \
 "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o" \
 "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o" \
-"CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o" \
 "CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o"
 
 # External object files for target cntfet_dosimetry
@@ -217,7 +202,6 @@ cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/src/CNTFETPrimaryGeneratorActi
 cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/src/CNTFETRunAction.cc.o
 cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/src/CNTFETEventAction.cc.o
 cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/src/CNTFETSteppingAction.cc.o
-cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o
 cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.o
 cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/build.make
 cntfet_dosimetry: /usr/local/geant4/lib/libG4Tree.so
@@ -257,7 +241,7 @@ cntfet_dosimetry: /usr/local/geant4/lib/libG4global.so
 cntfet_dosimetry: /usr/local/geant4/lib/libG4clhep.so
 cntfet_dosimetry: /usr/local/geant4/lib/libG4ptl.so.3.0.0
 cntfet_dosimetry: CMakeFiles/cntfet_dosimetry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable cntfet_dosimetry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rylan/projects/cntfet-best/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cntfet_dosimetry"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cntfet_dosimetry.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -153,30 +153,6 @@ src/CNTFETActionInitialization.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cntfet_dosimetry.dir/build.make CMakeFiles/cntfet_dosimetry.dir/src/CNTFETActionInitialization.cc.s
 .PHONY : src/CNTFETActionInitialization.cc.s
 
-src/CNTFETBiasing.o: src/CNTFETBiasing.cc.o
-.PHONY : src/CNTFETBiasing.o
-
-# target to build an object file
-src/CNTFETBiasing.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cntfet_dosimetry.dir/build.make CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.o
-.PHONY : src/CNTFETBiasing.cc.o
-
-src/CNTFETBiasing.i: src/CNTFETBiasing.cc.i
-.PHONY : src/CNTFETBiasing.i
-
-# target to preprocess a source file
-src/CNTFETBiasing.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cntfet_dosimetry.dir/build.make CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.i
-.PHONY : src/CNTFETBiasing.cc.i
-
-src/CNTFETBiasing.s: src/CNTFETBiasing.cc.s
-.PHONY : src/CNTFETBiasing.s
-
-# target to generate assembly for a file
-src/CNTFETBiasing.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cntfet_dosimetry.dir/build.make CMakeFiles/cntfet_dosimetry.dir/src/CNTFETBiasing.cc.s
-.PHONY : src/CNTFETBiasing.cc.s
-
 src/CNTFETDetectorConstruction.o: src/CNTFETDetectorConstruction.cc.o
 .PHONY : src/CNTFETDetectorConstruction.o
 
@@ -357,9 +333,6 @@ help:
 	@echo "... src/CNTFETActionInitialization.o"
 	@echo "... src/CNTFETActionInitialization.i"
 	@echo "... src/CNTFETActionInitialization.s"
-	@echo "... src/CNTFETBiasing.o"
-	@echo "... src/CNTFETBiasing.i"
-	@echo "... src/CNTFETBiasing.s"
 	@echo "... src/CNTFETDetectorConstruction.o"
 	@echo "... src/CNTFETDetectorConstruction.i"
 	@echo "... src/CNTFETDetectorConstruction.s"
