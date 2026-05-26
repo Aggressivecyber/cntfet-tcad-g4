@@ -92,7 +92,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17"
+					"fragment" : "-std=gnu++17"
 				},
 				{
 					"backtrace" : 2,
@@ -139,6 +139,10 @@
 				},
 				{
 					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -146,7 +150,7 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/rylan/projects/cntfet-best/geant4/include"
+					"path" : "/home/rylan/projects/cntfet-best/geant4/includ"
 				},
 				{
 					"backtrace" : 10,
@@ -207,10 +211,6 @@
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
